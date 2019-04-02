@@ -1,0 +1,6 @@
+<h2>
+
+<a class="padd-style" *ngFor='let router of routers' [routerLink]='router.url'>{{router.linkName}}</a> 
+</h2>
+<app-view-cmp></app-view-cmp>
+<router-outlet></router-outlet>
